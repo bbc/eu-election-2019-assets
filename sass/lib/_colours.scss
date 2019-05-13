@@ -2,8 +2,7 @@
 @import "../../bower_components/gs-sass-tools/_sass-tools"
 
 $light: white;
-$dark: $nw-c-ebon;
-$black: $nw-c-black;
+$dark: #222222;
 
 $eu-entities: (
   left:  (bg: #6b0e0e, fg: $light),
@@ -24,17 +23,17 @@ $uk-entities: (
   con:  (bg: #0575c9, fg: $dark),
   ukip: (bg: #712f87, fg: $light),
   alli: (bg: #cdaf2d, fg: $dark),
-  snp:  (bg: #f8db14, fg: $black),
+  snp:  (bg: #f8db14, fg: $dark),
   pc:   (bg: #159b78, fg: $dark),
   bnp:  (bg: #9094c8, fg: $dark),
   ed:   (bg: #b20a06, fg: $light),
-  sdlp: (bg: #65a966, fg: $black),
-  tuv:  (bg: #6dcad2, fg: $black),
+  sdlp: (bg: #65a966, fg: $dark),
+  tuv:  (bg: #6dcad2, fg: $dark),
   cpa:  (bg: #cc3399, fg: $light),
   ld:   (bg: #ea965c, fg: $dark),
   sf:   (bg: #00623f, fg: $light),
   brex: (bg: #28a9c5, fg: $dark),
   cu:   (bg: #ffffff, fg: $light),
-  oth:  (bg: #bababa, fg: $black),
+  oth:  (bg: #bababa, fg: $dark),
   aife: (bg: #990067, fg: $light),
 );
