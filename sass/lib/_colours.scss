@@ -1,39 +1,37 @@
 // List of colours used for EU Election 2019 project
-@import "../../bower_components/gs-sass-tools/_sass-tools"
-
 $light: white;
 $dark: #222222;
 
 $eu-entities: (
-  left:  (bg: #6b0e0e, fg: $light),
-  soc:   (bg: #ff5206, fg: $dark),
-  green: (bg: #588300, fg: $light),
-  epp:   (bg: #acdde8, fg: $dark),
-  con:   (bg: #00a4ff, fg: $dark),
-  efd:   (bg: #5f1bc9, fg: $light),
-  lib:   (bg: #ffd85b, fg: $dark),
-  enf:   (bg: #0b1f84, fg: $light)
+  "left":  (bg: #6b0e0e, fg: $light),
+  "soc":   (bg: #ff5206, fg: $dark),
+  "green": (bg: #588300, fg: $light),
+  "epp":   (bg: #acdde8, fg: $dark),
+  "con":   (bg: #00a4ff, fg: $dark),
+  "efd":   (bg: #5f1bc9, fg: $light),
+  "lib":   (bg: #ffd85b, fg: $dark),
+  "enf":   (bg: #0b1f84, fg: $light)
 );
 
 $uk-entities: (
-  dup:  (bg: #c0153d, fg: $light),
-  lab:  (bg: #e91d0e, fg: $light),
-  grn:  (bg: #4ec61c, fg: $dark),
-  uup:  (bg: #6ab1e6, fg: $dark),
-  con:  (bg: #0575c9, fg: $dark),
-  ukip: (bg: #712f87, fg: $light),
-  alli: (bg: #cdaf2d, fg: $dark),
-  snp:  (bg: #f8db14, fg: $dark),
-  pc:   (bg: #159b78, fg: $dark),
-  bnp:  (bg: #9094c8, fg: $dark),
-  ed:   (bg: #b20a06, fg: $light),
-  sdlp: (bg: #65a966, fg: $dark),
-  tuv:  (bg: #6dcad2, fg: $dark),
-  cpa:  (bg: #cc3399, fg: $light),
-  ld:   (bg: #ea965c, fg: $dark),
-  sf:   (bg: #00623f, fg: $light),
-  brex: (bg: #28a9c5, fg: $dark),
-  cu:   (bg: #ffffff, fg: $light),
-  oth:  (bg: #bababa, fg: $dark),
-  aife: (bg: #990067, fg: $light),
+  "dup":  (bg: #c0153d, fg: $light),
+  "lab":  (bg: #e91d0e, fg: $light),
+  "grn":  (bg: #4ec61c, fg: $dark),
+  "uup":  (bg: #6ab1e6, fg: $dark),
+  "con":  (bg: #0575c9, fg: $dark),
+  "ukip": (bg: #712f87, fg: $light),
+  "alli": (bg: #cdaf2d, fg: $dark),
+  "snp":  (bg: #f8db14, fg: $dark),
+  "pc":   (bg: #159b78, fg: $dark),
+  "bnp":  (bg: #9094c8, fg: $dark),
+  "ed":   (bg: #b20a06, fg: $light),
+  "sdlp": (bg: #65a966, fg: $dark),
+  "tuv":  (bg: #6dcad2, fg: $dark),
+  "cpa":  (bg: #cc3399, fg: $light),
+  "ld":   (bg: #ea965c, fg: $dark),
+  "sf":   (bg: #00623f, fg: $light),
+  "brex": (bg: #28a9c5, fg: $dark),
+  "cu":   (bg: #ffffff, fg: $light),
+  "oth":  (bg: #bababa, fg: $dark),
+  "aife": (bg: #990067, fg: $light),
 );
