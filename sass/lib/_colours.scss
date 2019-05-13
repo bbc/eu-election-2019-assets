@@ -1,0 +1,72 @@
+// List of colours used for EU Election 2019 project
+// Use http://chir.ag/projects/name-that-color/ to define colors
+$light-text: #ffffff;
+$dark-text: #222222;
+
+$eu-groups-bg: (
+  left: #6b0e0e,
+  soc: #ff5206,
+  green: #588300,
+  epp: #acdde8,
+  con: #00a4ff,
+  efd: #5f1bc9,
+  lib: #ffd85b,
+  enf: #0b1f84
+);
+
+$eu-groups-fg: (
+  left: $light-text,
+  soc: $dark-text,
+  green: $light-text,
+  epp: $dark-text,
+  con: $dark-text,
+  efd: $light-text,
+  lib: $dark-text,
+  enf: $light-text
+);
+
+$uk-group-bg: (
+  aife: #990067,
+  dup: #c0153d,
+  lab: #e91d0e,
+  green: #4ec61c,
+  uup: #6ab1e6,
+  con: #0575c9,
+  ukip: #712f87,
+  alliance: #cdaf2d,
+  snp: #f8db14,
+  pc: #159b78,
+  bnp: #9094c8,
+  eng-de: #b20a06,
+  sdlp: #65a966,
+  tuv: #6dcad2,
+  cpa: #cc3399,
+  ld: #ea965c,
+  sf: #00623f,
+  brexit: #28a9c5,
+  change-uk: #000000,
+  oth: #bababa
+)
+
+$uk-group-fg: (
+  aife: $light-text,
+  dup: $light-text,
+  lab: $light-text,
+  green: $dark-text,
+  uup: $dark-text,
+  con: $light-text,
+  ukip: $light-text,
+  alliance: $dark-text,
+  snp: $dark-text,
+  pc: $dark-text,
+  bnp: $dark-text,
+  eng-de: $light-text,
+  sdlp: $dark-text,
+  tuv: $dark-text,
+  cpa: $light-text,
+  ld: $dark-text,
+  sf: $light-text,
+  brexit: $dark-text,
+  change-uk: $light-text,
+  oth: $dark-text
+)

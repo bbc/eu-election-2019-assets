@@ -1,0 +1,9 @@
+{
+  "name": "eu-election-2019-assets",
+  "version": "1.0.0",
+  "homepage": "https://github.com/bbc/eu-election-2019-assets",
+  "authors": [
+    "BBC News Data Presentation"
+  ],
+  "description": "Shared assets for the EU Election 2019 project"
+}
