@@ -1,72 +1,54 @@
 // List of colours used for EU Election 2019 project
-// Use http://chir.ag/projects/name-that-color/ to define colors
-$light-text: #ffffff;
-$dark-text: #222222;
+@import "../../bower_components/gs-sass-tools/_sass-tools"
 
-$eu-groups-bg: (
-  left: #6b0e0e,
-  soc: #ff5206,
-  green: #588300,
-  epp: #acdde8,
-  con: #00a4ff,
-  efd: #5f1bc9,
-  lib: #ffd85b,
-  enf: #0b1f84
+$light: white;
+$dark: $nw-c-ebon;
+$black: $nw-c-black;
+
+$eu-entities: (
+  left:  (bg: #6b0e0e, fg: $light),
+  soc:   (bg: #ff5206, fg: $dark),
+  green: (bg: #588300, fg: $light),
+  epp:   (bg: #acdde8, fg: $dark),
+  con:   (bg: #00a4ff, fg: $dark),
+  efd:   (bg: #5f1bc9, fg: $light),
+  lib:   (bg: #ffd85b, fg: $dark),
+  enf:   (bg: #0b1f84, fg: $light)
 );
 
-$eu-groups-fg: (
-  left: $light-text,
-  soc: $dark-text,
-  green: $light-text,
-  epp: $dark-text,
-  con: $dark-text,
-  efd: $light-text,
-  lib: $dark-text,
-  enf: $light-text
+$uk-entities: (
+  apni: (bg: #cdaf2d, fg: $black),
+  bnp:  (bg: #9094c8, fg: $dark),
+  con:  (bg: #0575c9, fg: $dark),
+  cpa:  (bg: #cc3399, fg: $light),
+  dup:  (bg: #c0153d, fg: $light),
+  ed:   (bg: #b20a06, fg: $light),
+  grn:  (bg: #4ec61c, fg: $dark),
+  ichc: (bg: #e6006c, fg: $light),
+  ind:  (bg: #d26fbc, fg: $black),
+  lab:  (bg: #e91d0e, fg: $light),
+  ld:   (bg: #ea965c, fg: $dark),
+  lib:  (bg: #c7941a, fg: $dark)
+  mk:   (bg: #a09b1c, fg: $dark),
+  nha:  (bg: #1554b6, fg: $light),
+  ni21: (bg: #009fbd, fg: $dark),
+  noc:  (bg: #646464, fg: $light),
+  oth:  (bg: #bababa, fg: $black),
+  pc:   (bg: #159b78, fg: $dark),
+  pup:  (bg: #000b66, fg: $light),
+  pv:   (bg: #018847, fg: $light),
+  ra:   (bg: #00b0ac, fg: $dark),
+  res:  (bg: #31b56a, fg: $dark),
+  sdlp: (bg: #65a966, fg: $black),
+  sf:   (bg: #00623f, fg: $light),
+  slp:  (bg: #ff5b00, fg: $black),
+  snp:  (bg: #ffee34, fg: $black),
+  ssp:  (bg: #990066, fg: $light),
+  tusc: (bg: #6c0000, fg: $light),
+  tuv:  (bg: #6dcad2, fg: $black),
+  ukip: (bg: #712f87, fg: $light),
+  uup:  (bg: #6ab1e6, fg: $dark),
+  yf:   (bg: #00b8fd, fg: $black),
+  hung: (bg: #646464, fg: $light)
 );
 
-$uk-group-bg: (
-  aife: #990067,
-  dup: #c0153d,
-  lab: #e91d0e,
-  green: #4ec61c,
-  uup: #6ab1e6,
-  con: #0575c9,
-  ukip: #712f87,
-  alliance: #cdaf2d,
-  snp: #f8db14,
-  pc: #159b78,
-  bnp: #9094c8,
-  eng-de: #b20a06,
-  sdlp: #65a966,
-  tuv: #6dcad2,
-  cpa: #cc3399,
-  ld: #ea965c,
-  sf: #00623f,
-  brexit: #28a9c5,
-  change-uk: #000000,
-  oth: #bababa
-)
-
-$uk-group-fg: (
-  aife: $light-text,
-  dup: $light-text,
-  lab: $light-text,
-  green: $dark-text,
-  uup: $dark-text,
-  con: $light-text,
-  ukip: $light-text,
-  alliance: $dark-text,
-  snp: $dark-text,
-  pc: $dark-text,
-  bnp: $dark-text,
-  eng-de: $light-text,
-  sdlp: $dark-text,
-  tuv: $dark-text,
-  cpa: $light-text,
-  ld: $dark-text,
-  sf: $light-text,
-  brexit: $dark-text,
-  change-uk: $light-text,
-  oth: $dark-text
-)

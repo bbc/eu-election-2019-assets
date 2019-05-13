@@ -5,5 +5,8 @@
   "authors": [
     "BBC News Data Presentation"
   ],
-  "description": "Shared assets for the EU Election 2019 project"
+  "description": "Shared assets for the EU Election 2019 project",
+  "dependencies": {
+    "gs-sass-tools": "^5.0.5"
+  }
 }
