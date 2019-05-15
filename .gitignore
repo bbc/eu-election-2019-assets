@@ -4,3 +4,4 @@ bower_components/
 .DS_Store
 pnpm-debug.log
 .idea
+*.iml
