@@ -6,14 +6,16 @@ $change-negative: #d71e00;
 $change-positive: #198627;
 
 $eu-entities: (
-  "left":  (bg: #6b0e0e, fg: $light),
-  "soc":   (bg: #ff5206, fg: $dark),
-  "green": (bg: #588300, fg: $light),
-  "epp":   (bg: #acdde8, fg: $dark),
-  "con":   (bg: #00a4ff, fg: $dark),
-  "efd":   (bg: #5f1bc9, fg: $light),
-  "lib":   (bg: #ffd85b, fg: $dark),
-  "enf":   (bg: #0b1f84, fg: $light)
+  "left":  (bg: #c0153d, fg: $light),
+  "soc":   (bg: #e91d0e, fg: $dark),
+  "green": (bg: #4ec61c, fg: $light),
+  "epp":   (bg: #45ccff, fg: $dark),
+  "con":   (bg: #0575c9, fg: $dark),
+  "efd":   (bg: #009fbd, fg: $light),
+  "lib":   (bg: #f8db14, fg: $dark),
+  "enf":   (bg: #712f87, fg: $light),
+  "ind":   (bg: #ff66ad, fg: $dark),
+  "oth":   (bg: #bababa, fg: $dark)
 );
 
 $uk-entities: (
@@ -33,8 +35,9 @@ $uk-entities: (
   "cpa":  (bg: #cc3399, fg: $light),
   "ld":   (bg: #ea965c, fg: $dark),
   "sf":   (bg: #00623f, fg: $light),
-  "brex": (bg: #28a9c5, fg: $dark),
+  "brx":  (bg: #009fbd, fg: $dark),
   "cu":   (bg: #ffffff, fg: $light),
   "oth":  (bg: #bababa, fg: $dark),
   "aife": (bg: #990067, fg: $light),
+  "chuk": (bg: #414142, fg: $light)
 );
