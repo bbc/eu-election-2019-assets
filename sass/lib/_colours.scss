@@ -6,16 +6,16 @@ $change-negative: #d71e00;
 $change-positive: #198627;
 
 $eu-entities: (
-  "left":  (bg: #c0153d, fg: $light),
-  "soc":   (bg: #e91d0e, fg: $dark),
-  "grn":   (bg: #4ec61c, fg: $light),
-  "epp":   (bg: #45ccff, fg: $dark),
-  "con":   (bg: #0575c9, fg: $dark),
-  "efd":   (bg: #009fbd, fg: $light),
-  "lib":   (bg: #f8db14, fg: $dark),
-  "enf":   (bg: #712f87, fg: $light),
-  "ind":   (bg: #ff66ad, fg: $dark),
-  "oth":   (bg: #bababa, fg: $dark)
+  "eu+gue/ngl":      (bg: #c0153d, fg: $light),
+  "eu+s&d":          (bg: #e91d0e, fg: $light),
+  "eu+greens/efa":   (bg: #4ec61c, fg: $dark),
+  "eu+epp":          (bg: #45ccff, fg: $dark),
+  "eu+ecr":          (bg: #0575c9, fg: $light),
+  "eu+efdd":         (bg: #009fbd, fg: $dark),
+  "eu+alde":         (bg: #f8db14, fg: $dark),
+  "eu+enf":          (bg: #712f87, fg: $light),
+  "eu+ni":           (bg: #ff66ad, fg: $dark),
+  "eu+others":       (bg: #bababa, fg: $dark)
 );
 
 $uk-entities: (
